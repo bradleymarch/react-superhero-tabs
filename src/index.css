@@ -72,7 +72,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-.grid-container {
+.grid-item {
   display: inline-grid;
   width: calc(20% - 1rem);
   margin: 0.5rem;
