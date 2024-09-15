@@ -1,8 +1,1 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Here's a quick demo of a Vite React App use case. This is my first time using Vite to create a React App. This implements React 18+ and React Hooks. It demonstates a quick data fetch with two tabs: One displays superheroes in a list and the other in a grid with their cool images. All in classy styling. Enjoy!
