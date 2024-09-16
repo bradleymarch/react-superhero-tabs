@@ -9,7 +9,11 @@ const GridItem = (props) => {
    return (
       <div className="grid-item">
          <h4>{name}</h4>
-         <img src={imageSrc} className="superhero-image" alt="Superhero Image" />
+         <img 
+            src={imageSrc} 
+            className="superhero-image" 
+            alt="Superhero Image" 
+         />
       </div>
    )
 }
