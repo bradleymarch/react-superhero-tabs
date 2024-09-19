@@ -27,9 +27,9 @@ function Landing() {
          <TabPanel>
             <ul className="superhero-list">
                {
-                  superheroes.map((hero, index) => (
+                  superheroes.map((hero) => (
                      <ListItem
-                        key={index}
+                        key={hero.id}
                         id={hero.id}
                         name={hero.name}
                         realName={hero.biography['full-name']}
@@ -41,9 +41,9 @@ function Landing() {
          </TabPanel>
          <TabPanel>
             {
-               superheroes.map((hero, index) => (
+               superheroes.map((hero) => (
                   <GridItem
-                     key={index}
+                     key={hero.id}
                      name={hero.name}
                      imageSrc={hero.image.url}
                   />
